@@ -7,11 +7,10 @@ int _printf(const char *format, ...)
 	int count = 0, i;
 
 	va_list data;
+
 	va_start(data, format);
 
-	/* _printf("%s", 'Hello') */
-
-	for (i = 0; format[i] != '\0'; )
+	for (int i = 0; format[i] != '\0'; )
 	{
 		/* count the number of characters */
 		/* print to the screen each character counted */
@@ -43,7 +42,7 @@ int _printf(const char *format, ...)
 					count += print_binary(va_arg(data, int));
 					break;
 				case 'u':
-					count += print_unsigned(va_arg(data, unsigned int));
+					count += print_unsigned_int(va_arg(data, unsigned int));
 					break;
 				default:
 					break;
