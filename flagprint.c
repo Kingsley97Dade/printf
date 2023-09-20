@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * get_flag - A function that turns on flags if
  *            _printf finds a flag modifier in the format string.
  * @s:       Character specifier to be used.
@@ -42,6 +42,5 @@ int get_flag(char s, flags_x *y)
 			w = 1;
 			break;
 	}
-
 	return (w);
 }
