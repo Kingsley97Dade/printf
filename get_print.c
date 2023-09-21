@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * get_print - a function to specifically select
- * the appropraite printing function
- * @specifier: character that holds the specifier
- * to be converted
- * By Kingsley Dade and Gabriel Akinshola
+ * get_print - This is a function that selects
+ * the specific appropraite printing function
+ * @specifier: The character that holds the specifier
+ * being converted
+ * Authors: Kingsley Dade and Gabriel Akinshola
  * Return: pointer to the matching printing function
  */
 

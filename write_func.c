@@ -2,11 +2,11 @@
 #include <unistd.h>
 
 /**
- * _putchar - a function to write
+ * _putchar - This is a function that writes
  *  the character c to stdout
  * @c: The character to print
  * Return: On success 1.
- *         On error, -1 is returned, and errno is set appropriately.
+ *         On error, -1 is returned, and error is set appropriately.
  * Description: _putchar uses a local buffer of 1024 to call write
  * as little as possible.
  */
@@ -30,7 +30,7 @@ int _putchar(char c)
 }
 
 /**
- * _puts - a function to prints a string to stdout
+ * _puts - This is a function that prints a string to stdout
  * @str: pointer to the string to used
  * Return: number of characters written
  */

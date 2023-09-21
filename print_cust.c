@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * print_bigS - a function to check Non-printable characters
+ * print_bigS - This is a function that checks Non-printable characters
  * (0 < ASCII value < 32 or >= 127) are
  * printed this way: \x, followed by the ASCII code
  * value in hexadecimal (uppercase - always 2 characters)
  * @vi: va_list arguments
- * @y: pointer to be used
- * Return: number of characters to be printed
+ * @y: pointer being used
+ * Return: number of characters being printed
+ * Authors: Kingsley Dade and Gabriel Akinshola
  */
 
 int print_bigS(va_list vi, flags_x *y)
@@ -38,7 +39,7 @@ int print_bigS(va_list vi, flags_x *y)
 }
 
 /**
- * print_rev - prints a string in reverse
+ * print_rev - This function prints a string in reverse
  * @vi: argument from _printf
  * @y: pointer to the struct flags
  * Return: length of the printed string
@@ -63,7 +64,7 @@ int print_rev(va_list vi, flags_x *y)
 }
 
 /**
- * print_rot13 - prints a string using rot13
+ * print_rot13 - This function prints a string using rot13
  * @vi: list of arguments from _printf
  * @y: pointer to the struct flags
  * Return: length of the printed string
@@ -95,7 +96,7 @@ int print_rot13(va_list vi, flags_x *y)
 }
 
 /**
- * print_percent - prints a percent
+ * print_percent - This function prints a percentage
  * @vi: va_list arguments from _printf
  * @y: pointer to the struct flags in which we turn the flags on
  * Return: number of characters printed

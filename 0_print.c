@@ -2,9 +2,9 @@
 
 /**
  * _printf - printf function
- * @format: format string specifier to be used
- * By Kingsley Dade and Gabriel Akinshola
- * Return: number of characters
+ * @format: format string specifier being used
+ * Return: The number of characters in the function
+ * Authors: Kingsley Dade and Gabriel Akinshola
  */
 
 int _printf(const char *format, ...)

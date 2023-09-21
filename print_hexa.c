@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_hexa - a fuction that prints a number in
+ * print_hexa - This fuction prints a number in
  * hexadecimal base in lowercase
- * @y: pointer to to be used
+ * @y: pointer being used
  * @vi: va_list argument
- * By Kingsley Dade and Gabriel Akinshola
- * Return: number of characters to be printed
+ * Authors: Kingsley Dade and Gabriel Akinshola
+ * Return: number of characters being printed
  */
 
 int print_hexa(va_list vi, flags_x *y)
@@ -23,9 +23,9 @@ int print_hexa(va_list vi, flags_x *y)
 }
 
 /**
- * print_hexa_big - a function to print a number
+ * print_hexa_big - This function prints a number
  * in hexadecimal base in uppercase
- * @y: pointer to be used
+ * @y: pointer being used
  * @vi: va_list arguments
  *
  * Return: number of characters
@@ -45,11 +45,11 @@ int print_hexa_big(va_list vi, flags_x *y)
 }
 
 /**
- * print_binary - a function that prints number in base 2
- * @y: pointer to be used
+ * print_binary - This function prints numbers in base 2
+ * @y: pointer being used
  * @vi: va_list arguments
  *
- * Return: number of characters to be printed
+ * Return: number of characters being printed
  */
 
 int print_binary(va_list vi, flags_x *y)
@@ -63,11 +63,11 @@ int print_binary(va_list vi, flags_x *y)
 }
 
 /**
- * print_octal - a function that prints a number in base 8
- * @y: pointer to be used
+ * print_octal - This function that prints numbers in base 8
+ * @y: pointer being used
  * @vi: va_list arguments
  *
- * Return: number of characters to be printed
+ * Return: number of characters being printed
  */
 
 int print_octal(va_list vi, flags_x *y)

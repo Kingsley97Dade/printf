@@ -27,7 +27,7 @@ typedef struct flags
 } flags_x;
 
 /**
- * struct printHandler - struct to choose the right function depending
+ * struct printHandler - struct to choose the correct function depending
  * on the format specifier passed to _printf()
  * @c: format specifier
  * @y: pointer to the correct printing function

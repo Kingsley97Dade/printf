@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_int - a function that prints an integer
+ * print_int - This function prints an integer
  * @vi: va_list of arguments
- * @y: pointer to be used
+ * @y: pointer being used
  * By Kingsley Dade and Gabriel Akinshola
  * Return: number of characters printed
  */
@@ -24,10 +24,10 @@ int print_int(va_list vi, flags_x *y)
 }
 
 /**
- * print_unsigned - a function to print an unsigned integer
+ * print_unsigned - This is a function that prints an unsigned integer
  * @vi: va_list of arguments
- * @y: pointer to be used
- * Return: number of characters to be printed
+ * @y: pointer being used
+ * Return: number of characters being printed
  */
 
 int print_unsigned(va_list vi, flags_x *y)
@@ -40,9 +40,9 @@ int print_unsigned(va_list vi, flags_x *y)
 }
 
 /**
- * print_number - a function to help look through
+ * print_number - This is a function that looks through
  * the loop and integer and prints all its digits
- * @n: integer to be printed
+ * @n: integer being printed
  */
 
 void print_number(int n)
@@ -65,8 +65,8 @@ void print_number(int n)
 /**
  * count_digit - a function that returns the number
  * of digits in an integer
- * @y: integer to evaluate
- * Return: number of digits
+ * @y: integer that evaluates
+ * Return: number of digits printed
  */
 
 int count_digit(int y)

@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_string - a function that loops through a string
+ * print_string - This is a function that loops through a string
  * then prints every character
- * @y: pointer to be used
- * @vi: va_list argument to be used
- * By Kingsley Dade and Gabriel Akinshola
- * Return: number of characters to be printed
+ * @y: pointer being used
+ * @vi: va_list argument being used
+ * Authors: Kingsley Dade and Gabriel Akinshola
+ * Return: number of characters being printed
  */
 
 int print_string(va_list vi, flags_x *y)
@@ -24,8 +24,8 @@ int print_string(va_list vi, flags_x *y)
 }
 
 /**
- * print_char - a function to print characters
- * @y: pointer to be used
+ * print_char - This is a function that print characters
+ * @y: pointer being used
  * @vi: va_list argumets
  *
  * Return: print number of characters

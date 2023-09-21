@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_address - a function that prints the address
- * of input in hexadecimal
- * @y: pointer to the struct to be used
- * @vi: va_list argument to be used
+ * print_address - This is a function that prints the address
+ * of the input in hexadecimal
+ * @y: pointer to the struct being used
+ * @vi: va_list argument being used
  * By Kingsley Dade and Gabriel Akinshola
- * Return: number of characters to be printed
+ * Return: number of characters being printed
  */
 
 int print_address(va_list vi, flags_x *y)

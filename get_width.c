@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * handle_width - a function to handle width specifiers
+ * handle_width - This is a function that handles width specifiers
  * @vi: arguments
- * @y: pointer to be used
- * Return: characters
+ * @y: pointer being used
+ * Return: Values
+ * Authors: Kingsley Dade and Gabriel Akinshola
  */
 
 int handle_width(va_list vi, flags_x *y)
