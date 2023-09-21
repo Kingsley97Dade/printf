@@ -14,9 +14,9 @@ int handle_width(va_list vi, flags_x *y)
 	int str_length;
 	unsigned int w;
 
-    str_length = strlen(str);
+	str_length = strlen(str);
 
-    if (y->width > str_length)
+	if (y->width > str_length)
 	{
 		num = y->width - str_length;
 
