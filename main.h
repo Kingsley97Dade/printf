@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
@@ -14,27 +15,15 @@
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
- * @zero: on if _flag specified
- * @minus: on if _flag specified
  *
  * @width: width field specifier
- * @precision: precision field specifier
- * @h_modifier: h_modifier specifier
- * @l_modifier: l_modifier specifier
  */
 typedef struct flags
 {
 	int plus;
 	int space;
 	int hash;
-	int zero;
-	int minus;
-
-	unsigned int width;
-	unsigned int precision;
-
-	unsigned int h_modifier		:1;
-	unsigned int l_modifier		:1;
+	int width;
 } flags_x;
 
 /**

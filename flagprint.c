@@ -33,14 +33,6 @@ int get_flag(char s, flags_x *y)
 			y->hash = 1;
 			w = 1;
 			break;
-		case '-':
-			y->minus = 1;
-			w = 1;
-			break;
-		case '0':
-			y->zero = 1;
-			w = 1;
-			break;
 	}
 	return (w);
 }
